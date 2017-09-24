@@ -1,0 +1,71 @@
+html {
+
+
+}
+
+.header {
+  display: flex;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  z-index: 1;
+}
+
+.header img {
+  width: 150px;
+  height: 50px;
+  padding-right: 100px;
+  margin-left: 10px;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.header a {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
